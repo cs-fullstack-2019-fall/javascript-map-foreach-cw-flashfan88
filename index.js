@@ -2,6 +2,7 @@
 //Ask the user to enter a word.
 // Keep asking them to enter a word until they enter the letter 'q'.
 
+// this is an infinite loop bc you never update the value of userInput
 let userInput = prompt("Enter a word");
 while(userInput !== 'q')
 {
